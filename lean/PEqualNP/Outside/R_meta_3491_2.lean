@@ -1,8 +1,7 @@
 import Mathlib
 import PEqualNP.Defs
 
-set_option maxHeartbeats 1600000 in
-theorem PEqualNP.Outside.R_meta_3491_1
+theorem PEqualNP.Outside.R_meta_3491_2
     (count : ∀ (n m : ℕ) (I : Fin n → Fin m → Prop) [DecidableRel I]
         (C : PEqualNP.CircuitLowerBounds.Circuit),
       (∀ (p q : Fin n) (l k : Fin m), p ≠ q → l ≠ k →
